@@ -1,6 +1,7 @@
 module.exports = {
 	title: "My Blog",
 	head : [],
+	base : "/gittest/",
 	themeConfig: {
 		nav: [
 			{text: "Home", link:'/'},
