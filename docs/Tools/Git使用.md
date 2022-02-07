@@ -182,8 +182,9 @@ $ ssh -T git@github.com
 ```
 如果出现下面提示，则说明链接成功：
 ```c
-  Hi deeryang! You've successfully authenticated, but GitHub does not provide shell access.
+  Hi XXX! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+> 如果出现连接错误，可能是网站被墙，修改`.git/config`文件中的`url`为`https://`可以解决这一问题
 
 ### 修改`.gitignore`后生效
 具体做法：
@@ -207,11 +208,12 @@ $ git push origin master	#push
 $ git pull --allow-unrelated-histories
 ```
 ### 分支问题
-查看分支： `git branch`
-创建分支： `git branch <name>`
-切换分支： `git checkout branch`
-创建+切换分支： `git checkout -b <name>`
-合并某分支到当前分支： `git merge <name>`
+
+查看分支： `git branch`  
+创建分支： `git branch <name>`  
+切换分支： `git checkout branch`  
+创建+切换分支： `git checkout -b <name>`  
+合并某分支到当前分支： `git merge <name>`  
 删除分支： `git branch -d <name>`
 
 ### 搭建网站
