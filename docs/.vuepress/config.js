@@ -6,10 +6,10 @@ module.exports = {
 		nav: [
 			{text: "Home", link:'/'},
             {text: "Navibar", link:'/NaviPage/Navigator.md'},
-			{text: "Github", link: 'https://github.com'},
-			{text: "Blog", link: 'https://lucass-yang.github.io'}
+			{text: "Github", link: 'https://github.com/lucass-yang'},
+			{text: "Blog", link: 'https://lucass-yang.github.io/gittest'}
 		],
-	//sidebar: 'auto',
+	sidebar: 'auto',
 	},
     markdown: {
         lineNumbers: true,
