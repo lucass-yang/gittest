@@ -1,3 +1,1 @@
-# gittest
-
-**Just for some test**
+# My blog
