@@ -10,10 +10,10 @@ module.exports = {
 			{text: "Blog", link: 'https://lucass-yang.github.io/gittest'}
 		],
 		sidebar: 'auto',
-		smoothScroll: 'true',
-		search: 'false',
-		nextLinks: 'true',
-		prevLinks: 'true'
+		//smoothScroll: 'true',
+		//search: 'false',
+		//nextLinks: 'true',
+		//prevLinks: 'true'
 	},
     markdown: {
         lineNumbers: true,
