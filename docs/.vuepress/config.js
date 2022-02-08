@@ -9,7 +9,11 @@ module.exports = {
 			{text: "Github", link: 'https://github.com/lucass-yang'},
 			{text: "Blog", link: 'https://lucass-yang.github.io/gittest'}
 		],
-	sidebar: 'auto',
+		sidebar: 'auto',
+		smoothScroll: 'true',
+		search: 'false',
+		nextLinks: 'true',
+		prevLinks: 'true'
 	},
     markdown: {
         lineNumbers: true,
