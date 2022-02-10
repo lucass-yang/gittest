@@ -5,7 +5,7 @@ categories: website
 footer: Copyright © 2022-present
 ---
 ## 网站记录
-![pic1](/pic1.jpg)
+![pic1](../About/images/pic1.jpg)
 ### 实用网站
 - [Googole开源项目风格指南](https://zh-google-styleguide.readthedocs.io/en/latest/contents/)
 - [DownGit](https://minhaskamal.github.io/DownGit/#/home)

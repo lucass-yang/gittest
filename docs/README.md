@@ -8,5 +8,5 @@ features:
   details: 记录每一天的进步
 - title: Two
   details: 专注技术栈分享
-footer: NIT Licensed | Copyright © NULL
+footer: MIT Licensed | Copyright © Evan You
 ---

@@ -1,3 +1,7 @@
+---
+tag: linux
+---
+
 # Linux常用命令汇总
 参考链接： [linux cmds](https://linux.jevin.org/)
 
@@ -29,4 +33,13 @@ initclear    |  initprepend         modulefile
 ```bash
 module add [modulefile]
 module rm [modulefile]
+```
+
+## env
+查看当前shell的环境变量
+
+## setenv
+增加或修改环境变量
+```bash
+setenv UVM_HOME /usr/bin/uvm/
 ```
