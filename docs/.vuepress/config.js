@@ -2,6 +2,7 @@ module.exports = {
 	title: "My Blog",
 	head : [],
 	base : "/gittest/",
+	theme: 'reco',
 	themeConfig: {
 		nav: [
 			{text: "Home", link:'/'},
@@ -12,7 +13,7 @@ module.exports = {
 		sidebar: 'auto',
 		editlinks: true,
 		smoothScroll: true,
-		search: false,
+		search: true,
 		nextLinks: true,
 		prevLinks: true
 	},
@@ -22,6 +23,9 @@ module.exports = {
     },
 	plugings: [
 		['@vuepress/back-to-top', true],
+		['@vuepress/search', {
+			searchMaxSuggestions: 10
+		}],
 		[
 			'@vuepress/active-header-links',
 			{
